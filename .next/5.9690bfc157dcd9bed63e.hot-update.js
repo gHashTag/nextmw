@@ -1,35 +1,5 @@
 webpackHotUpdate(5,{
 
-/***/ "./node_modules/react-native-web/dist/exports/Platform/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-/**
- * Copyright (c) 2016-present, Nicolas Gallagher.
- * Copyright (c) 2015-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule Platform
- * 
- */
-
-var Platform = {
-  OS: 'web',
-  select: function select(obj) {
-    return 'web' in obj ? obj.web : obj.default;
-  }
-};
-
-exports.default = Platform;
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -94,7 +64,7 @@ var _default = function _default(props) {
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 var styles = __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleSheet___default.a.create({
   container: {
-    flex: 1,
+    display: flex,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF'
@@ -151,4 +121,4 @@ var styles = __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleShee
 /***/ })
 
 })
-//# sourceMappingURL=5.782293df5967ff16ad8b.hot-update.js.map
+//# sourceMappingURL=5.9690bfc157dcd9bed63e.hot-update.js.map

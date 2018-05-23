@@ -126,7 +126,7 @@ var instructions = __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_Pla
 });
 var styles = __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleSheet___default.a.create({
   container: {
-    flex: 1,
+    display: flex,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF'

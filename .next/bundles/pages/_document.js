@@ -8334,11 +8334,11 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 36
         }
-      }, "City Retreat")), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("body", {
+      }, "Next.js")), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("body", {
         style: {
+          display: 'flex',
           height: '100%',
-          width: '100%',
-          overflowY: 'scroll'
+          width: '100%'
         },
         __source: {
           fileName: _jsxFileName,

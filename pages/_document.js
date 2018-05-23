@@ -33,9 +33,9 @@ export default class MyDocument extends Document {
     return (
       <html style={{ height: '100%', width: '100%' }}>
         <Head>
-          <title>City Retreat</title>
+          <title>Next.js</title>
         </Head>
-        <body style={{ height: '100%', width: '100%', overflowY: 'scroll' }}>
+        <body style={{ display: 'flex', height: '100%', width: '100%' }}>
           <Main />
           <NextScript />
         </body>
