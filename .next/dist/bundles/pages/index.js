@@ -79,56 +79,68 @@ module.exports =
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_StyleSheet__ = __webpack_require__("react-native-web/dist/exports/StyleSheet");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_StyleSheet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_StyleSheet__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_Text__ = __webpack_require__("react-native-web/dist/exports/Text");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_Text___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_Text__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_View__ = __webpack_require__("react-native-web/dist/exports/View");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_View___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_View__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_Platform__ = __webpack_require__("react-native-web/dist/exports/Platform");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_Platform___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_Platform__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleSheet__ = __webpack_require__("react-native-web/dist/exports/StyleSheet");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleSheet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleSheet__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_Text__ = __webpack_require__("react-native-web/dist/exports/Text");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_Text___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_Text__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_native_web_dist_exports_View__ = __webpack_require__("react-native-web/dist/exports/View");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_native_web_dist_exports_View___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_native_web_dist_exports_View__);
 var _jsxFileName = "/Users/xyz/nextmw/pages/index.js";
 
 
 
 
-var styles = __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_StyleSheet___default.a.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    backgroundColor: 'gold',
-    justifyContent: 'center'
-  },
-  text: {
-    alignItems: 'center',
-    fontSize: 24
-  }
+
+var instructions = __WEBPACK_IMPORTED_MODULE_1_react_native_web_dist_exports_Platform___default.a.select({
+  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
+  android: 'Double tap R on your keyboard to reload,\n' + 'Shake or press menu button for dev menu'
 });
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_View___default.a, {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_native_web_dist_exports_View___default.a, {
     style: styles.container,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_View___default.a, {
-    style: {
-      position: 'absolute',
-      top: '50%',
-      right: '15%'
-    },
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_Text___default.a, {
+    style: styles.welcome,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_Text___default.a, {
-    style: {
-      fontSize: 80,
-      textAlign: 'right'
-    },
+  }, "Welcome to React Native!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_Text___default.a, {
+    style: styles.instructions,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     }
-  }, "Home")));
+  }, "To get started, edit App.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_native_web_dist_exports_Text___default.a, {
+    style: styles.instructions,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    }
+  }, instructions));
+});
+var styles = __WEBPACK_IMPORTED_MODULE_2_react_native_web_dist_exports_StyleSheet___default.a.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF'
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5
+  }
 });
 
 /***/ }),
@@ -145,6 +157,13 @@ module.exports = __webpack_require__("./pages/index.js");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-native-web/dist/exports/Platform":
+/***/ (function(module, exports) {
+
+module.exports = require("react-native-web/dist/exports/Platform");
 
 /***/ }),
 
